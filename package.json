@@ -1,0 +1,24 @@
+{
+  "name": "advanced-state-management-with-redux-toolkit-template",
+  "packageManager": "yarn@4.4.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "biome lint src",
+    "format": "biome format src"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react-swc": "3.7.0",
+    "typescript": "5.5.4",
+    "vite": "^5.4.3"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
